@@ -44,7 +44,7 @@ Clone the MUN Node repository:
 
 ```
 git clone https://github.com/munblockchain/mun-node
-cd mun
+cd mun-node
 ```
 
 Next, install the executables:
@@ -86,7 +86,7 @@ mund keys add [wallet_name] --keyring-backend test
 ## Genesis and P2P Configuration
 Fetch the genesis.json file from the genesis node:
 
-curl http://[GENESIS_NODE_IP]/data/genesis_3093970.json --output ~/.mun/config/genesis.json
+curl http://[GENESIS_NODE_IP]/genesis --output ~/.mun/config/genesis.json
 
 Join our Discord community to obtain the [GENESIS_NODE_IP address.
 
