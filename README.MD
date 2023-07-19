@@ -86,9 +86,7 @@ mund keys add [wallet_name] --keyring-backend test
 ## Genesis and P2P Configuration
 Fetch the genesis.json file from the genesis node:
 
-curl http://[GENESIS_NODE_IP]/genesis --output ~/.mun/config/genesis.json
-
-Join our Discord community to obtain the [GENESIS_NODE_IP address.
+curl https://mainnet1rpc.mun.money/genesis | jq ".result.genesis" > ~/.mun/config/genesis.json
 
 Next, update the seed in config.toml for P2P connection:
 ```
