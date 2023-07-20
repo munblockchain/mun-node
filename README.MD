@@ -160,7 +160,7 @@ mund status
 ```
 
 ## Becoming a Validator
-Once your node is fully synchronized with the network and you've secured some MUN, you can become a validator by staking your MUN. To check synchronization status, visit https://node1.mun.money/status and compare the latest block height with your node's block height, obtainable via http://[Your_Node_IP]:26657/status.
+Once your node is fully synchronized with the network and you've secured some MUN, you can become a validator by staking your MUN. To check synchronization status, visit https://mainnet1rpc.mun.money/status and compare the latest block height with your node's block height, obtainable via http://[Your_Node_IP]:26657/status.
 
 When ready, stake your MUN:
 ```
